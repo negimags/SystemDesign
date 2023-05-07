@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T17:06:24.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6QCUIa_fs3oUByVb5uwD" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T04:15:29.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9vQX5hRi4i31RrrJmZUA" version="21.2.9" type="github">
   <diagram name="Page-1" id="qX53JOvQzqTEsRCYqxFs">
     <mxGraphModel dx="1865" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,23 @@
         </mxCell>
         <mxCell id="NKDnhciYdsfh6VeeJWnX-28" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5kLuQHOlf_KjCGQI0WT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U5kLuQHOlf_KjCGQI0WT-2" target="NKDnhciYdsfh6VeeJWnX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5kLuQHOlf_KjCGQI0WT-2" value="DB to fetch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="90" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U5kLuQHOlf_KjCGQI0WT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5kLuQHOlf_KjCGQI0WT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U5kLuQHOlf_KjCGQI0WT-3" value="DB to fetch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="190" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U5kLuQHOlf_KjCGQI0WT-4" value="Slave DB&lt;br&gt;for heavy reads&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="825" y="23" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
